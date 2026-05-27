@@ -4,6 +4,7 @@ from agno.run.agent import RunOutput
 from agno.db.sqlite import SqliteDb
 from agno.models.google import Gemini
 from agno.os import AgentOS
+from taskTool import tracker_task
 load_dotenv()
 
 # I prezzi sono stati segnati tenendo conto della cifra più alta delle due disponibili 
@@ -55,6 +56,7 @@ convAgent = Agent(
     markdown=True,
     num_history_runs=5,
     post_hooks=[calcoloTokenInOut],
+    tools=[tracker_task]
 )
 
 # Parte necessaria per permettere all'agente di essere eseguito su AgnoOS
