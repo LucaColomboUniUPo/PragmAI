@@ -1,0 +1,2 @@
+Costo token input per 300 token: 0.0012 Costo token output per 134 token: 0.002412 Costo token cache per 0 token: 0.0 
+Costo token input per 1697 token: 0.006788 Costo token output per 210 token: 0.00378 Costo token cache per 0 token: 0.0 
