@@ -1,0 +1,14 @@
+# Escludi tutto
+*
+
+# Ma includi queste cartelle e file specifici
+!tool/
+!tool/**
+!markdown/
+!markdown/**
+!convAgent.py
+!main.py
+!startConvAgent.py
+!tknInOut.py
+!cost.txt
+!.gitignore
